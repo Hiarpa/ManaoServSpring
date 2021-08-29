@@ -31,7 +31,7 @@ public class Empresa {
     private String razaoSocialEmpresa;
 
     @Column(name = "descricao_empresa", nullable = true, length = 255)
-    private String descricao_empresa;
+    private String descricaoEmpresa;
 
     @OneToMany
     @JoinColumn(name = "fk_id_empresa")
@@ -45,17 +45,17 @@ public class Empresa {
     public Empresa() {
     }
 
-    public Empresa(String nomeEmpresa, String senhaEmpresa, Integer cnpj, String telefoneEmpresa, String emailEmpresa, String razaoSocialEmpresa, String descricao_empresa) {
+    public Empresa(String nomeEmpresa, String senhaEmpresa, Integer cnpj, String telefoneEmpresa, String emailEmpresa, String razaoSocialEmpresa, String descricaoEmpresa) {
         this.nomeEmpresa = nomeEmpresa;
         this.senhaEmpresa = senhaEmpresa;
         this.cnpj = cnpj;
         this.telefoneEmpresa = telefoneEmpresa;
         this.emailEmpresa = emailEmpresa;
         this.razaoSocialEmpresa = razaoSocialEmpresa;
-        this.descricao_empresa = descricao_empresa;
+        this.descricaoEmpresa = descricaoEmpresa;
     }
 
-    public Empresa(Integer idEmpresa, String nomeEmpresa, String senhaEmpresa, Integer cnpj, String telefoneEmpresa, String emailEmpresa, String razaoSocialEmpresa, String descricao_empresa, List<Servicos> listaServicos, List<Servicos> listaEnderecos) {
+    public Empresa(Integer idEmpresa, String nomeEmpresa, String senhaEmpresa, Integer cnpj, String telefoneEmpresa, String emailEmpresa, String razaoSocialEmpresa, String descricaoEmpresa, List<Servicos> listaServicos, List<Servicos> listaEnderecos) {
         this.idEmpresa = idEmpresa;
         this.nomeEmpresa = nomeEmpresa;
         this.senhaEmpresa = senhaEmpresa;
@@ -63,7 +63,7 @@ public class Empresa {
         this.telefoneEmpresa = telefoneEmpresa;
         this.emailEmpresa = emailEmpresa;
         this.razaoSocialEmpresa = razaoSocialEmpresa;
-        this.descricao_empresa = descricao_empresa;
+        this.descricaoEmpresa = descricaoEmpresa;
         this.listaServicos = listaServicos;
         this.listaEnderecos = listaEnderecos;
     }
@@ -124,12 +124,12 @@ public class Empresa {
         this.razaoSocialEmpresa = razaoSocialEmpresa;
     }
 
-    public String getDescricao_empresa() {
-        return descricao_empresa;
+    public String getDescricaoEmpresa() {
+        return descricaoEmpresa;
     }
 
-    public void setDescricao_empresa(String descricao_empresa) {
-        this.descricao_empresa = descricao_empresa;
+    public void setDescricaoEmpresa(String descricaoEmpresa) {
+        this.descricaoEmpresa = descricaoEmpresa;
     }
 
     public List<Servicos> getListaServicos() {

@@ -24,9 +24,10 @@ public class Servicos {
     public Servicos() {
     }
 
-    public Servicos(String tagServicos, Autonomo autonomo) {
+    public Servicos(String tagServicos, Autonomo autonomo, Empresa empresa) {
         this.tagServicos = tagServicos;
         this.autonomo = autonomo;
+        this.empresa = empresa;
     }
 
     public Servicos(Integer idServicos, String tagServicos, Autonomo autonomo, Empresa empresa) {
