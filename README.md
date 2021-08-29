@@ -1,65 +1,61 @@
-Manual:
-linguagem de programação e versão utilizada:
+# ManaoServ
 
-Backend:
-Framework Spring Boot usando Java versão 11
-
-Frontend:
-Javascript com a bibliote React
-
-Banco de dados:
-MySQL versão 8.0.21 
-servidor Xampp
+ManaoServ é uma plataforma inserida no contexto virtual para ajudar profissionais autônomos e empresas na regularização com poder  público, utilizando tecnologias para divulgar habilidades e competências profissionais no mercado de trabalho.
 
 
-Especificação de ferramentas necessárias para o funcionamento do produto:
+## 🚀 Começando
 
-Backend: Usar a IDE Intellij para rodar a aplicação backend
-Frontend: Usar VScode 
-Banco de dados: usar MySQL com xampp como servido
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local.
+```bash
+$ git clone https://github.com/Hiarpa/ManaoServSpring.git
+```
 
-Requisitos mínimos para instalação:
+### 📋 Pré-requisitos
 
-Intellij: 
-Requisitos de hardware 1 GB de RAM mínimo
-2 GB de RAM recomendados
-300 MB de espaço no disco rígido + pelo menos 1 GB para caches
-Resolução mínima de tela de 1024×768
+máquina com pelo menos:
+```
+MySQL server 8.0.26V
 
-Windows Microsoft Windows 10/8/7 / Vista / 2003 / XP (incl.64-bit) Para desenvolver aplicativos Java com o IntelliJ IDEA, instale a versão JDK de acordo com os requisitos do seu projeto. Mac MacOS 10.5 ou superior. Somente MacOS de 64 bits é suportado. Para desenvolver aplicativos Java com o IntelliJ IDEA, instale a versão JDK de acordo com os requisitos do seu projeto. Linux SO Linux 64 bits Desktop KDE, GNOME ou Unity DE Para desenvolver aplicativos Java com o IntelliJ IDEA, instale a versão JDK de acordo com os requisitos do seu projeto. Observe que você não pode usar o JRE empacotado com o IntelliJ IDEA para desenvolvimento, apenas para executar o próprio IDE.
+JAVA 11V
 
-VScode:
-Recomendamos uma máquina com pelo menos Intel Core i3, Dual Core, com 8GB de Ram e no mínimo 128GB de disco.
-Sistema Operacional SEMPRE ATUALIZADO, e em caso de uso do Windows, utilizar sempre a versão 10 ou superior.
+Node 14.17.4V
+
+Javascript
+```
+máquina com pelo menos:
+```
+Intel Core i3, Dual Core, 
+
+com 8GB de Ram
+
+no mínimo 128GB de disco.
+
+```
 
 
-MySQL:
-Windows:
-Versão mais recente (5.0.x) do Java™ 2 SDK da Sun (disponível neste CD).
-Qualquer sistema operacional Windows de 32 bits suportado pela Microsoft
-Suporte a protocolo TCP/IP
-WinZip ou outra ferramenta Windows que possa ler arquivos .ZIP, para descompactar o arquivo de distribuição.
-Espaço suficiente na unidade de disco para desenpacotar, instalar, e criar os bancos de dados de acordo com seus requisitos.
-Se planeja conectar-se ao servidor MySQL via ODBC, você também precisará do driver MyODBC. Veja a seção 21.3 MySQL ODBC Support do MySQL Reference Manual online.
-Se precisar de tabelas maiores que 4 GB, instale o MySQL em um NTFS ou em sistema de arquivos mais novo. Não se esqueça de utilizar MAX_ROWS e AVG_ROW_LENGTH ao criar tabelas. Veja a seção 14.2.5 CREATE TABLE Syntax do MySQL Reference Manual online.
+### 🔧 Instalação
 
-Xampp:
-256 MB de espaço livre em memória RAM.
-100 MB de espaço livre em HD
-MySQL 5.0.41
-PHP 4.4.7
-phpMyAdmin 2.10.1
-Instalação de ferramentas:
-Intellij: 
-Siga o tutorial https://www.jetbrains.com/help/idea/installation-guide.html#snap
+1 passo 
+```
+Abra o codigo fonte no IntelliJ ou a sua IDE de escolha,
+```
+2 passo
+```
+Com o codigo fonte aberto execute a classe "ManaoServApplication" do projeto para a execução da aplicação.
 
-VScode:
-Baixe no link https://code.visualstudio.com/download
-Execute o instalador 
+```
+3 passo
+```
+Com a aplicação sendo executada na IDE, a API se torna funcional 
+```
 
-MySQL:
-Seguir o tutorial https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/installing.html
+## 🛠️ Construído com
 
-Xampp:
-Seguir o tutorial https://www.ionos.com/digitalguide/server/tools/xampp-tutorial-create-your-own-local-test-server/
+Mencione as ferramentas que você usou para criar seu projeto
 
+* [Intellij](https://www.jetbrains.com/help/idea/installation-guide.html#snap) - O IDE para aplicações JAVA
+* [MySQL](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/installing.html) - O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. 
+* [VScode](https://code.visualstudio.com/download) - Editor de texto usado para o desenvolvimento Frontend
+* [Xampp](https://www.ionos.com/digitalguide/server/tools/xampp-tutorial-create-your-own-local-test-server/) - pacote com os principais servidores de código aberto do mercado
+* [Node](https://nodejs.org/en/) - plataforma de aplicação com Javascript que serão compilados, otimizados e interpretados pela máquina virtual V8.
+* [React](https://nodejs.org/en/) -Biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web
